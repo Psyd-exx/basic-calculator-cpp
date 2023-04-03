@@ -6,3 +6,5 @@ A very basic calculator made in C++.
 - Subtraction
 - Multiplication
 - Division
+- Squaring
+- Square Root
