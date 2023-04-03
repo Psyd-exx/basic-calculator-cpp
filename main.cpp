@@ -65,7 +65,7 @@ int main()
         } else if (userChoice == 7) {
             cout << "\nExiting Program";
         } else {
-            cout << "\nInput the first number: ";
+            cout << "Input the first number: ";
             cin >> numberOne;
 
             if (userChoice == 5) {
@@ -76,7 +76,7 @@ int main()
 
 
             if (userChoice != 5 && userChoice != 6) {
-                cout << "\nInput the second number: ";
+                cout << "Input the second number: ";
                 cin >> numberTwo;
 
                 if (userChoice == 1) {
@@ -89,7 +89,7 @@ int main()
                     result = divide(numberOne, numberTwo);
                 }
             }
-            cout << "\nThe result is: " << result;
+            cout << "RESULT -> " << result << "\n";
         }
 
     }
