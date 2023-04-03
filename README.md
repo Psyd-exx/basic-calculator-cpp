@@ -1,5 +1,5 @@
 # Basic Calculator
-This is just a very basic calculator made in C++.
+A very basic calculator made in C++.
 
 ## Features
 - Addition
