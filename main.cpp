@@ -42,8 +42,8 @@ int exponent(int base, int exponent)
 {
     int tmp {1};
     while (exponent > 0) {
-        if (exponent & 1) {    // checking if exponent is odd (same as % 2 == 1)
-            tmp *= base;
+        if (exponent & 1) {    // checking if exponent is odd (`exponent % 2 == 1` works here too)
+            tmp *= base;       // however `exponent & 1` is more efficient
         }
         base *= base;
         exponent /= 2;
