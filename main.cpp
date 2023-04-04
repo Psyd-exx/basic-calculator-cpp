@@ -38,11 +38,15 @@ int squareRoot(int numberOne)
     return sqrt(numberOne);
 }
 
-int exponent(int numberOne, int numberTwo)
+int exponent(int base, int exponent)
 {
-    int tmp {numberOne};
-    for (int i=0; i<numberTwo-1; i++) {
-        tmp = tmp * numberOne;
+    int tmp {1};
+    while (exponent > 0) {
+        if (exponent & 1) {    // checking if exponent is odd (same as % 2 == 1)
+            tmp *= base;
+        }
+        base *= base;
+        exponent /= 2;
     }
     return tmp;
 }
