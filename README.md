@@ -8,3 +8,4 @@ A very basic calculator made in C++.
 - Division
 - Squaring
 - Square Root
+- Exponents
