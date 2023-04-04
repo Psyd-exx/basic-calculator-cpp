@@ -68,7 +68,7 @@ int main()
         cout << "(4) Divide two numbers\n";
         cout << "(5) Square a number\n";
         cout << "(6) Square root of a number\n";
-        cout << "(7) Number one raised to the power of number two\n";
+        cout << "(7) Raise one number to the power of another\n";
         cout << "(8) Exit\n";
         cout << "\nPlease input here: ";
         cin >> userChoice;
